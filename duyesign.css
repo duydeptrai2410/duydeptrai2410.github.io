@@ -1,0 +1,376 @@
+body{
+	font-family: Arial, sans-serif;
+	margin: 100;
+	padding: 100;
+}
+ul li a {
+  color: white;
+}
+<style>
+  .overview {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .overview p {
+    text-align: center;
+  }
+  .overview h2, .overview p, .overview img {
+    max-width: 100%;
+  }
+</style>
+
+<section class="overview">
+  <h2 style="color:#FFF">Về Vinfast</h2>
+  <img src="vin1.jpg" alt="Parachain diagram">
+  <p style="color:#FFF">vinfast là 1 thương hiệu mới trong làng xe điện trên thế giới và là hãng xe đầu tiên của Việt Nam sản xuất xe diện với tổng vốn đầu tư nhà máy lên đến hơn 4 tỉ đô la cùng hàng loạt công nghệ được mua từ nước ngoài đồng thời các quy trình sản xuất được tự động hóa bằng các cánh tay robot được nhập khẩu từ thụy sĩ với cồng xuất hơn 400.000 xe một năm </p>
+</section>
+a {
+	color: #0078d4;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Header styles */
+
+header {
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+.logo img {
+	max-height: 40px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+/* Hero styles */
+
+.hero {
+	background-image: url("hero-background.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0;
+}
+
+.hero-content {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	color: #ffffff;
+}
+
+.hero h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.hero h2 {
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+.hero img {
+	max-width: 100%;
+	margin-bottom: 40px;
+}
+
+.button {
+	display: inline-block;
+	background-color: #0078d4;
+	color: #ffffff;
+	padding: 12px 20px;
+	border-radius: 4px;
+	font-size: 18px;
+	transition: background-color 0.3s;
+}
+
+.button:hover {
+	background-color: #005a9e;
+}
+
+/* Overview styles */
+
+.overview {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 80px 0;
+	text-align: center;
+}
+
+.overview h2 {
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
+.overview p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+
+.overview img {
+	max-width: 100%;
+	margin-top: 40px;
+}
+
+/* Benefits styles */
+
+.benefits {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 80px 0;
+	text-align: center;
+}
+
+.benefits h2 {
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
+.benefits ul {
+	max-width: 600px;
+	margin: 0 auto;
+	padding-left: 0;
+}
+
+.benefits li {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+/* Auctions styles */
+
+.auctions {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 80px 0;
+	text-align: center;
+}
+
+.auctions h2 {
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
+.auctions p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+
+.auctions a {
+	font-size: 18px;
+	color: #0078d4;
+	transition: color 0.3s;
+}
+
+.auctions a:hover {
+	color: #005a9e;
+}
+
+/* Slots styles */
+
+.slots {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 80px 0;
+	text-align: center;
+}
+
+.slots h2 {
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
+.slots table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 40px;
+}
+
+.slots th {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	padding: 12px;
+	border-bottom: 2px solid #0078d4;
+}
+
+.slots td {
+	font-size: 18px;
+	padding: 12px;
+	border-bottom: 1px solid #dddddd;
+}
+
+/* Builders styles */
+
+.builders {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 80px 0;
+	text-align: center;
+}
+
+.builders h2 {
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
+.logos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.logos img {
+	max-height: 60px;
+	margin: 20px;
+}
+
+/* Footer styles */
+
+footer {
+	background-color: #f5f5f5;
+	padding: 20px;
+	margin-top: 80px;
+	text-align: center;
+}
+
+.social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.social img {
+	max-height: 30px;
+	margin: 0 10px;
+}
+
+footer p {
+	font-size: 14px;
+	color: #999999;
+	margin-bottom: 0;
+}```
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+header {
+  background-color: green;
+}
+.introduction {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.introduction h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.introduction p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.introduction a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.introduction a:hover {
+  background-color: #fff;
+  color: #333;
+}
+.overview {
+  background-color: black;
+}
+.overview {
+	height: 0px;
+  padding: 600px;
+  justify-content: center;
+	align-items: center;
+  
+  
+}
+.row {
+	width:auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-md-4 {
+  flex: 0 0 calc(33.33% - 15px);
+  margin-bottom: 30px;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+<style>
+  .overview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .overview h2, .overview p, .overview img {
+    max-width: 100%;
+  }
+</style>
+<style>
+  .overview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .overview h2, .overview p, .overview img {
+    max-width: 100%;
+  }
+</style>
+
+
